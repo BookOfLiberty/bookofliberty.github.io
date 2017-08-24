@@ -5,7 +5,7 @@ title:               'The Book of Liberty'
 tagline:             'alenda lux ubi orta libertas'
 description:         'A primer on everything good. By anon, for anon.'
 url:                 'https://github.com/bookofliberty'
-baseurl:             '/ed'
+baseurl:             ''
 
 # About/contact
 author:
