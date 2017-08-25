@@ -1,11 +1,7 @@
 ---
 layout: default
-title: "The Book of Liberty"
+title: "Alphabetized List"
 ---
-<div class="introduction">
-  <h1>Welcome to the Book Of Liberty.</h1>
-</div>
-
 <div class="toc">
   <h2>sample texts</h2>
   <ul class="texts">
@@ -19,6 +15,3 @@ title: "The Book of Liberty"
   {% endfor %}
   </ul>
 </div>
-
-
-

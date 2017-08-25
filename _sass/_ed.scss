@@ -21,9 +21,9 @@
 $main-font: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 
 $heading-font: sans-serif;
-$heading-color: #404040;
+$heading-color: #001066;
 
-$text-color: #454545;
+$text-color: #000;
 $regular-font-size: 20px;
 
 $link-color: #841212;
@@ -64,7 +64,7 @@ html {
 
 body {
   color: $text-color;
-  background-color: #fff;
+  background-color: #e5e9ff;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
@@ -270,11 +270,14 @@ tbody tr:nth-child(odd) th {
  */
 
 .masthead {
-	margin-bottom: 3rem;
+	margin-bottom: 2.4rem;
 	text-align: center;
-	padding-top: 26px;
-	padding-bottom: 1rem;
-  border-bottom: 1px solid #eee;
+	padding-top: 20px;
+	padding-bottom: 0.8rem;
+  border-bottom: 1px solid #0028ff;
+  background-color: #fff;
+/*  position: sticky;
+  width:100%;*/
 }
 
 .masthead-title {
@@ -289,7 +292,7 @@ tbody tr:nth-child(odd) th {
 
 .masthead-title small {
   font-family: $main-font;
-  font-size: .88rem;
+  font-size:0.8rem;
   font-weight: 300;
   color: $text-color;
   letter-spacing: .05rem;
@@ -298,7 +301,7 @@ tbody tr:nth-child(odd) th {
 
 h3.masthead-title {
 	font-family: $main-font;
-	font-size: 1.8rem;
+	font-size: 2rem;
 	margin-top: 2px;
 }
 
@@ -313,8 +316,8 @@ h3.masthead-title {
   }
 
   h3.masthead-title {
-  margin-left: 15%;
-  margin-right: 15%;
+  margin-left: 10%;
+  margin-right: 10%;
   }
 }
 
@@ -640,6 +643,18 @@ a.sidebar-nav-item:focus {
   color: #8f5536;
 }
 
+/* Gold and Blue */
+.theme-base-0g .sidebar,
+.theme-base-0g .sidebar-toggle:active {
+ /* background-color: #00147f;*/
+  background-color: #222;
+}
+.theme-base-0g .container a,
+.theme-base-0g .sidebar-toggle,
+.theme-base-0g .related-posts li a:hover {
+/*  color: #ff9a00;ea1*/
+  color: #0028ff;
+}
 
 /*
  * Overlay sidebar
