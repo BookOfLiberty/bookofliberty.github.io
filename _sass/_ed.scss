@@ -17,10 +17,11 @@
  * Feel free to change!
  *
  */
+@import url('https://fonts.googleapis.com/css?family=PT+Serif');
+@import url('https://fonts.googleapis.com/css?family=Rubik:300,400');
+$main-font:  "Palatino Linotype",  Palatino, "PT Serif", "Book Antiqua", serif;
 
-$main-font: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-
-$heading-font: sans-serif;
+$heading-font: "Rubik", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $heading-color: #001066;
 
 $text-color: #000;
@@ -64,7 +65,8 @@ html {
 
 body {
   color: $text-color;
-  background-color: #e5e9ff;
+/*  background-color: #e5e9ff;*/
+  background-color: #eee;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
@@ -129,7 +131,7 @@ a:focus {
 h1, h2, h3, h4, h5, h6 {
   font-family: $heading-font;
   margin-bottom: .5rem;
-  font-weight: 300;
+  font-weight: 400;
   color: $heading-color;
   letter-spacing: -.025rem;
   line-height: 1.25;
