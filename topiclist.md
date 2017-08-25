@@ -3,7 +3,6 @@ layout: page
 title: "Alphabetized List"
 ---
 <div class="toc">
-  <h2>sample texts</h2>
   <ul class="texts">
   {% for item in site.texts %}
   

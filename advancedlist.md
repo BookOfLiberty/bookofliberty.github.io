@@ -1,11 +1,10 @@
 ---
-layout: page
+layout: xpage
 title: Advanced Texts
 ---
 <div class="introduction">
 </div>
 <div class="toc">
-  <h2>sample texts</h2>
   <ul class="texts">
   {% for item in site.texts %}
   
